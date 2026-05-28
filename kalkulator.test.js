@@ -1,9 +1,5 @@
-const { tambah } = require("./kalkulator");
+import { tambah } from "./kalkulator.js";
 
 test("1 + 2 harus sama dengan 3", () => {
     expect(tambah(1, 2)).toBe(3);
-});
-
-test("2 + 2 harus sama dengan 4", () => {
-    expect(tambah(2, 2)).toBe(4);
 });

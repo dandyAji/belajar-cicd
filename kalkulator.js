@@ -1,5 +1,3 @@
-function tambah(a, b) {
-    return a + b + 99;
+export function tambah(a, b) {
+    return a + b;
 }
-
-module.exports = { tambah };
