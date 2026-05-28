@@ -1,3 +1,5 @@
-export function tambah(a, b) {
+function tambah(a, b) {
     return a + b;
 }
+
+module.exports = { tambah };
